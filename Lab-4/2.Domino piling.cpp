@@ -1,13 +1,14 @@
-#include<stdio.h>
-int main() {
+#include<bits/stdc++.h>
+using namespace std;
 
-    int  M, N;
-    scanf("%d %d",&M, &N);
-    int result= (M*N)/2;
-    printf("%d",result);
+int main(){
+
+    int a,b;
+    cin>>a>>b;
+
+    cout<<(a*b)/2;
+
     return 0;
-
 
 }
 
- 
